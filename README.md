@@ -43,21 +43,36 @@ Whether tracking active military aircraft, mapping strategic underground cabling
 *   **Architecture & Stability:** The backend uses dynamic query rotating and auto-retry algorithms for standard OpenStreetMap queries to circumvent Rate Limits (HTTP 429) and Bad Gateway (HTTP 502/504) crashes, keeping the app production-ready. However, please note that performance lag or browser freezing may occur when querying extremely large country datasets, which is a known architectural limitation at this time.
 
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/066dfcfb-308a-4d43-830a-383950c20fdc" />
-<img width="709" height="943" alt="image" src="https://github.com/user-attachments/assets/11e1f445-2019-4ab1-84f4-d990edeb776d" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3d48b917-b67f-4eed-a660-e16569ac774d" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/09234ab0-604d-4354-811f-5c119a44c5e1" />
-<img width="1919" height="1080" alt="image" src="https://github.com/user-attachments/assets/7f759b3b-1234-4755-af77-828128f6727b" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d8be8d1d-aef6-4fd7-8fd7-07e3c5a4c0aa" />
-<img width="1919" height="1080" alt="image" src="https://github.com/user-attachments/assets/952f9149-d097-4351-a559-bbbd5f70b8d6" />
-<img width="1919" height="1080" alt="image" src="https://github.com/user-attachments/assets/0fa4135a-a61e-41ae-b41f-a4da967af3d2" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fb050fe5-0459-4259-ad32-ac8f568a6e94" />
-<img width="1912" height="1080" alt="image" src="https://github.com/user-attachments/assets/c66cfcf0-05f2-45a8-a576-0c31a92b6a7c" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/92cd966b-9374-4f29-9482-4d92c2c3fcca" />
-<img width="1919" height="1080" alt="image" src="https://github.com/user-attachments/assets/b6dd32fb-fbe5-40b3-91ee-f5235afd032a" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f98a711d-097a-447a-99be-afa0a93a9f93" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/752284e1-e519-4d62-976f-733f5f015d1a" />
-<img width="1918" height="1080" alt="image" src="https://github.com/user-attachments/assets/6f53b63a-946f-4ab6-a15c-e78b989e776f" />
+<img width="1920" height="948" alt="1" src="https://github.com/user-attachments/assets/0b185c8e-08a3-4a49-b7a5-0cb29ddab143" />
+
+<img width="1920" height="943" alt="2" src="https://github.com/user-attachments/assets/ed14cd48-0fa6-4fc3-afbc-d2814a7b66fc" />
+
+<img width="1920" height="948" alt="3" src="https://github.com/user-attachments/assets/1eb5ca1b-45f9-41c8-a1ac-c2fbee3b03f5" />
+
+<img width="1920" height="948" alt="4" src="https://github.com/user-attachments/assets/8606c885-011d-490c-9dea-bc75ab14f0f6" />
+
+<img width="1919" height="950" alt="5" src="https://github.com/user-attachments/assets/0998f072-d373-4261-bd00-1c4b8d59e174" />
+
+<img width="1920" height="948" alt="6" src="https://github.com/user-attachments/assets/b6db371b-5253-4c4a-8a11-795ca80212aa" />
+
+<img width="1919" height="951" alt="7" src="https://github.com/user-attachments/assets/1c287209-08a6-4b39-8909-c7f1565c3a0a" />
+
+<img width="1919" height="943" alt="8" src="https://github.com/user-attachments/assets/83e51277-8bf3-43e4-9a2f-ca8db64ad991" />
+
+<img width="1920" height="951" alt="9" src="https://github.com/user-attachments/assets/30f6c8d0-3411-4da9-8aed-9bad1dc86432" />
+
+<img width="1912" height="957" alt="10" src="https://github.com/user-attachments/assets/9c9a2d43-d630-4c76-b753-7b494d61c710" />
+
+<img width="1920" height="948" alt="11" src="https://github.com/user-attachments/assets/07cec7dd-7ea9-4f14-a407-1f228b975d8d" />
+
+<img width="1919" height="951" alt="12" src="https://github.com/user-attachments/assets/3bfe28d2-55c3-4766-a902-b1e24689b373" />
+
+<img width="1920" height="941" alt="13" src="https://github.com/user-attachments/assets/3ca268f3-a150-4138-baac-8e9b53d35221" />
+
+<img width="1920" height="948" alt="14" src="https://github.com/user-attachments/assets/ae98a907-9fe6-42a6-be83-bd2529971c69" />
+
+<img width="1920" height="943" alt="15" src="https://github.com/user-attachments/assets/215fdef0-56d7-4cef-b1c8-2eaf39f8e4ad" />
+
 
 
 
