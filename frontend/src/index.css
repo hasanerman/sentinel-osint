@@ -109,6 +109,119 @@ body, html, #root {
 }
 .info-item strong { color: var(--text-main); }
 
+.header-brand { margin-bottom: 1.5rem; text-align: center; }
+.header-brand h1 { font-weight: 800; font-size: 1.2rem; color: #1e293b; letter-spacing: -0.5px; }
+.header-brand h1 span { color: var(--accent); }
+.header-brand .subtitle { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-top: 2px; }
+
+.filter-section { margin-top: 1.5rem; padding-top: 1rem; border-top: 1px dashed var(--border-color); }
+.filter-section h3 { font-size: 0.75rem; color: var(--text-muted); font-weight: 700; letter-spacing: 0.5px; }
+
+.section-header { display: flex; justify-content: space-between; align-items: center; cursor: pointer; margin-bottom: 0.75rem; user-select: none; color: var(--text-muted); transition: color 0.2s; }
+.section-header:hover h3, .section-header:hover svg { color: var(--accent); }
+
+.toggle-grid { display: grid; gap: 8px; grid-template-columns: 1fr; }
+
+.tag {
+  padding: 8px 12px;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #64748b;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.tag:hover { background: #e2e8f0; }
+
+.tag.active {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
+.tag.mil-tag.active {
+  background: #dc2626;
+  border-color: #dc2626;
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.2);
+}
+
+.radar-card h4 { font-size: 1rem; margin-bottom: 0.5rem; border-bottom: 1px solid #eee; padding-bottom: 4px; }
+.radar-card p { font-size: 0.8rem; margin: 2px 0; color: #475569; }
+
+.mil-badge {
+  display: inline-block;
+  margin-top: 8px;
+  background: #fee2e2;
+  color: #ef4444;
+  font-size: 0.65rem;
+  font-weight: 800;
+  padding: 2px 6px;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+}
+
+.radar-popup.aircraft-popup .leaflet-popup-content-wrapper {
+  width: 250px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.aircraft-photo-container {
+  width: 100%;
+  height: 140px;
+  background: #0f172a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.aircraft-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photo-placeholder {
+  color: #94a3b8;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.meta-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 0 10px;
+}
+
+.meta-grid span {
+  font-size: 0.65rem;
+  color: #64748b;
+  font-weight: 600;
+  background: #f1f5f9;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.radar-card h4 {
+  padding: 10px 10px 5px 10px;
+  margin-bottom: 0;
+  border: none;
+}
+
+.plane-marker-icon, .ship-marker-icon { transition: transform 0.3s ease-out; }
+
 .custom-marker-cluster {
   background: transparent;
   display: flex !important;
@@ -117,7 +230,7 @@ body, html, #root {
 }
 
 .radar-cluster {
-  background-color: rgba(220, 38, 38, 0.85);
+  background-color: #22c55e; /* Default Green */
   border: 2px solid #fff;
   color: white;
   width: 40px;
@@ -129,5 +242,17 @@ body, html, #root {
   font-family: var(--font-sans);
   font-weight: 700;
   font-size: 14px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.radar-cluster.base-cluster {
+  background-color: rgba(220, 38, 38, 0.85); /* Red for Bases */
   box-shadow: 0 4px 10px rgba(220, 38, 38, 0.4);
 }
+
+.radar-cluster.aircraft-cluster {
+  background-color: rgba(37, 99, 235, 0.85); /* Blue for Aircraft */
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.4);
+}
+
+
