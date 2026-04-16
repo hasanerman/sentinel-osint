@@ -42,6 +42,25 @@ Whether tracking active military aircraft, mapping strategic underground cabling
 
 *   **Architecture & Stability:** The backend uses dynamic query rotating and auto-retry algorithms for standard OpenStreetMap queries to circumvent Rate Limits (HTTP 429) and Bad Gateway (HTTP 502/504) crashes, keeping the app production-ready. However, please note that performance lag or browser freezing may occur when querying extremely large country datasets, which is a known architectural limitation at this time.
 
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/066dfcfb-308a-4d43-830a-383950c20fdc" />
+<img width="709" height="943" alt="image" src="https://github.com/user-attachments/assets/11e1f445-2019-4ab1-84f4-d990edeb776d" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3d48b917-b67f-4eed-a660-e16569ac774d" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/09234ab0-604d-4354-811f-5c119a44c5e1" />
+<img width="1919" height="1080" alt="image" src="https://github.com/user-attachments/assets/7f759b3b-1234-4755-af77-828128f6727b" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d8be8d1d-aef6-4fd7-8fd7-07e3c5a4c0aa" />
+<img width="1919" height="1080" alt="image" src="https://github.com/user-attachments/assets/952f9149-d097-4351-a559-bbbd5f70b8d6" />
+<img width="1919" height="1080" alt="image" src="https://github.com/user-attachments/assets/0fa4135a-a61e-41ae-b41f-a4da967af3d2" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fb050fe5-0459-4259-ad32-ac8f568a6e94" />
+<img width="1912" height="1080" alt="image" src="https://github.com/user-attachments/assets/c66cfcf0-05f2-45a8-a576-0c31a92b6a7c" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/92cd966b-9374-4f29-9482-4d92c2c3fcca" />
+<img width="1919" height="1080" alt="image" src="https://github.com/user-attachments/assets/b6dd32fb-fbe5-40b3-91ee-f5235afd032a" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f98a711d-097a-447a-99be-afa0a93a9f93" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/752284e1-e519-4d62-976f-733f5f015d1a" />
+<img width="1918" height="1080" alt="image" src="https://github.com/user-attachments/assets/6f53b63a-946f-4ab6-a15c-e78b989e776f" />
+
+
+
 ---
 
 ## Installation & Running
